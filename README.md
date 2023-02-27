@@ -34,5 +34,5 @@ GITLAB_TOKEN=<gitlab-token>
 3. Example for starting of scanning
 ```
 python scan-registry.py -o report.csv
-
+```
 Enjoy.
