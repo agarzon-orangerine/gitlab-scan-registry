@@ -4,6 +4,8 @@ The script helps you scan all non-archive registries for getting size of this re
 
 You can save result to CSV table for your analytics  (see --help).
 
+(!) Report shows result by REGISTRIES (NON PROJECTS). But it also is informative.
+
 1. Install requirements (requirements.txt)
 ```
 pip install -r requirements.txt
