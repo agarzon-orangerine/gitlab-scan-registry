@@ -1,0 +1,4 @@
+python-gitlab==3.4.0
+python-dotenv==0.20.0
+progressbar2==4.2.0
+pandas==1.5.3
