@@ -86,7 +86,12 @@ for p in projects:
         logging.info('⏩ Skip archived "%s"', p.name)
         continue
 
-    repositories = p.repositories.list(all=True)
+    try:
+        repositories = p.repositories.list(all=True)
+    except Exception:
+        logging.info('🔦 Exception reading repositories for "%s"', p.name)
+        continue
+    
     if repositories:
         for r in repositories:  
             tags = r.tags.list(all=True)
